@@ -1,0 +1,133 @@
+.multi_select {
+  margin-bottom: 1.5em;
+}
+
+.multi_select .unselected {
+  margin: 0 1.5em 0 0;    
+}
+  
+.multi_select .unselected,
+.multi_select .selected {
+  float: left;
+  width: 20em;
+}
+
+.multi_select .header, .multi_select .footer {
+  padding: 0.75em 0.75em;
+  border-right: 1px solid #C1DAD7;
+  border-left: 1px solid #C1DAD7;
+  background-image: url(../images/table_veerle_header_bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #CAE8EA;
+}
+
+.multi_select .header {
+  border-top: 1px solid #C1DAD7;
+}
+
+.multi_select .footer {
+  border-bottom: 1px solid #C1DAD7;
+}
+
+.multi_select .header .search {
+  padding: 0 0 0 2em;  
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.multi_select .header input {
+  padding: 0.4em 0.25em 0.25em 2em;  
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: 0.25em 0.25em;
+  width: 100%;
+}
+
+.multi_select .header input.placeholder {
+  color: #999;
+}
+
+.multi_select .footer a.select_all {
+  float: right;
+  padding-right: 0.5em;
+}
+
+.multi_select .footer a.select_all .icon.select_all {
+  padding-left: 0;
+  padding-right: 18px;
+  background-image: url(../images/right_arrow.png);  
+  background-position: right center;
+}
+
+.multi_select .footer a.unselect_all {
+  float: left;
+  padding-left: 0.5em;
+}
+
+.multi_select .footer a.unselect_all .icon.unselect_all {
+  background-image: url(../images/left_arrow.png);
+}
+
+.multi_select > div > ul {
+  height: 20em;
+  border: 1px solid #C1DAD7;
+  border-width: 0 1px;
+  overflow-y: auto;
+}
+
+.multi_select ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+}
+
+.multi_select ul li .name {
+  padding: 0.25em 0.5em;
+  font-size: 0.95em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.multi_select .selected ul li .name {
+  background-color: #0783d2;
+  border-color: #3e96cf;
+  color: #fff;
+}
+
+.multi_select ul li.result > .name {
+  font-weight: bold;
+}
+
+.multi_select ul li div.name:hover {
+  color: #fff;  
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #0783d2;
+  cursor: pointer;
+}
+
+.multi_select .unselected ul li div.name:hover  {
+  background-image: url(../images/right_arrow.png);
+}
+
+.multi_select .selected ul li div.name:hover {
+  background-image: url(../images/left_arrow.png);
+}
+
+.multi_select > div > ul ul .name {
+  padding-left: 1.25em;
+}
+
+.multi_select > div > ul ul ul .name {
+  padding-left: 2.25em;
+}
+
+.multi_select > div > ul ul ul ul .name {
+  padding-left: 3.25em;
+}
+
+.multi_select > div > ul ul ul ul ul .name {
+  padding-left: 4.25em;
+}
